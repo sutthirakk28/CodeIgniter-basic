@@ -46,7 +46,8 @@ class Users  extends CI_Controller {
 	}
 	public function add_user()
     {   
-		echo "เพิ่มข้อมูล Users";
+		
+		echo $_POST['firstname'];
 	}
 	public function update_user()
     {   
